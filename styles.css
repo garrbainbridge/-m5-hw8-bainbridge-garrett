@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #6003C3;
+  --white: #FFFFFF;
+  --box-color-1: #FCFF00;
+  --box-color-2: #57FFC9;
+  --box-color-3: #A5FF01;
+}
+
+body {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+}
+#box-1 {
+  background-color: var(--box-color-1);
+}
+#box-2 {
+  background-color: var(--box-color-2);
+}
+#box-3 {
+  background-color: var(--box-color-3);
+}
+.box {
+  padding: 30px 70px;
+  margin: 10px 50px;
+  width: fit-content;
+  color: var(--primary-color);
+  font-size: 8em;
+  border: var(--primary-color) solid 5px;
+  box-shadow: black 0px 10px 22px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.boxes {
+  text-align: center;
+}
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1px 0px;
+  font-weight: 100;
+}
+#message {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2em;
+}
