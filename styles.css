@@ -9,6 +9,7 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
 #box-1 {
   background-color: var(--box-color-1);
 }
@@ -28,6 +29,15 @@ body {
   box-shadow: black 0px 10px 22px;
   display: inline-block;
   border-radius: 10px;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-20px);
+}
+.box:active {
+  opacity: 50%;
 }
 .boxes {
   text-align: center;
